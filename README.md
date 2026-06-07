@@ -11,21 +11,25 @@ Login-Information:
 Status of GPU Support:
 
 What works:
-- OpenGL and vulkan contexts (glxgears, vkcube for example)
-- accelerated video with vlc
+* OpenGL and vulkan contexts (glxgears, vkcube for example)
+* accelerated video with vlc
 
 What doesn't work:
-- hardware-accelerated interfaces (but with xfce it's still relatively responsive)
+* hardware-accelerated interfaces (but with xfce it's relatively responsive)
 
 Tests:
+```
 user@starfive:~$ glxinfo | grep "direct rendering"
 direct rendering: Yes
+```
 
+```
 user@starfive:~$ glxgears
 2 frames in 7.0 seconds =  0.286 FPS
 291 frames in 5.0 seconds = 58.083 FPS
 297 frames in 5.0 seconds = 59.392 FPS
 291 frames in 5.0 seconds = 58.005 FPS
+```
 
 This package comes with XFCE on X11 as the default desktop environment. Desktopenvironments that rely on hardware acceleration are not practically usable.
 
@@ -40,8 +44,10 @@ Some other packages that are preinstalled (from the official debian trixie repos
 
 This image comes with 2 videos (480p, 720p) and a bashscript for fullscreen video in /home/user which lowers the screen resolution before running vlc and restores the old resolution when vlc closes. To play a video in fullscreen:
 
+```
 cd /home/user
 ./start_video.sh
+```
 
 start_video.sh can take the path of another video as input. The fluidity of the 480p video is almost at full speed when using the fullscreen script after some initial stutter. 720p is usable if the desktop resolution is lowered.
 
