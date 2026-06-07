@@ -1,6 +1,6 @@
 # Debian Trixie image for the Starfive Visionfive 2 1.3b with only official Debian repositories in APT sources and partial GPU support
 
-The purpose of this image is to test if users who value free/open technologies could have a usable desktop-experience with (with latest security patches) this.
+The purpose of this image is to test if users who value free/open technologies could have a usable desktop-experience (including latest security patches) with this.
 
 It is based on the 2025-10 release image from starfivetech (https://debian.starfivetech.com/).
 
