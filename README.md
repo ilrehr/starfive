@@ -38,7 +38,12 @@ Some other packages that are preinstalled (from the official debian trixie repos
 - vlc
 - keepassxc
 
-This image comes with 2 videos and a bashscript for fullscreen video in /home/user.
+This image comes with 2 videos (480p, 720p) and a bashscript for fullscreen video in /home/user which lowers the screen resolution before running vlc and restores the old resolution when vlc closes. To play a video in fullscreen:
+
+cd /home/user
+./start_video.sh
+
+start_video.sh can take the path of another video as input. The fluidity of the 480p video is almost at full speed when using the fullscreen script after some initial stutter. 720p is usable if the desktop resolution is lowered.
 
 Information on how this image was made:
 
