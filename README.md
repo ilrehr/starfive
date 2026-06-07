@@ -5,8 +5,8 @@ The purpose of this image is to test if users who value free/open technologies c
 It is based on the 2025-10 release image from starfivetech (https://debian.starfivetech.com/).
 
 Login-Information:
-User: user
-Password: starfive
+* User: user
+* Password: starfive
 
 Status of GPU Support:
 
