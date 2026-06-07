@@ -62,8 +62,10 @@ Some packages relying on the non-official repo were removed: vlc docker* firefox
 The existing packages were upgraded: sudo apt update && sudo apt upgrade -y
 
 Installation of the Desktop environment:
+```
 sudo tasksel (Desktop environment + XFCE)
 sudo apt install firefox-esr thunderbird keepassxc vim
+```
 
 The 25.0.7 mesa packages were installed (can be triggered by just sudo apt install libgl1-mesa-dri=25.0.7-2 mesa-vulkan-drivers=25.0.7-2).
 
