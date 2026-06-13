@@ -1,8 +1,10 @@
 # Debian Trixie image for the Starfive Visionfive 2 1.3b with only official Debian repositories in APT sources and partial GPU support
 
-The purpose of this image is to test if users who value free/open technologies could have a usable desktop-experience (including latest security patches) with a RISC-V board in 2026.
+The purpose of this image is to test if users who value free/open technologies could have a usable desktop-experience (including latest security patches) with this RISC-V board in 2026.
 
 It is based on the 2025-10 release image from starfivetech (https://debian.starfivetech.com/).
+
+Release v0.2 comes with Linux kernel 6.12.93, patched by r0b0 (https://github.com/r0b0/visionfive2-linux). His repository comes preconfigured in this Release for further updates. v0.1 uses the 6.12.5 kernel from starfivetech.
 
 Login-Information:
 * User: user
