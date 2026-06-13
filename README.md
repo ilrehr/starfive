@@ -4,7 +4,7 @@ The purpose of this image is to test if users who value free/open technologies c
 
 It is based on the 2025-10 release image from starfivetech (https://debian.starfivetech.com/).
 
-Release v0.2 comes with Linux kernel 6.12.93, patched by r0b0 (https://github.com/r0b0/visionfive2-linux). His repository comes preconfigured in this Release for further updates. v0.1 uses the 6.12.5 kernel from starfivetech.
+Release v0.2 comes with Linux kernel 6.12.93 (released on june 9th 2026), patched by r0b0 (https://github.com/r0b0/visionfive2-linux). His repository comes preconfigured in this Release for further updates. v0.1 uses the 6.12.5 kernel from starfivetech.
 
 Login-Information:
 * User: user
