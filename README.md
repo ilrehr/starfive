@@ -73,4 +73,16 @@ The 25.0.7 mesa packages were installed (can be triggered by just sudo apt insta
 
 Temporarily the sid repository was added to the repository to install the mesa 26 packages (sudo apt -t sid install libgl1-mesa-dri mesa-vulkan-drivers...) and then removed + apt update.
 
+Updates on the mesa packages or vlc could cause them not to work.
+
+XFCE Setup tips:
+The action buttons item in the panel (the user-icon in the upper right of the taskbar) doesn't come with a reboot option. Just right-click it, select properties and check the reboot checkbox to enable it.
+
+To disable auto-lock after some idle time and screen dimming/screen black after some idle time, open Application -> Settings -> Session and Startup, select Application Autostart and disable Screen Locker. Then klick on +Add and enter:
+Name: Disable Screen Sleep
+Description: Prevents DPMS and screensaver from blacking out the screen
+Command: xset s off -dpms
+
+Click ok and reboot.
+
 This image is for testing purposes only.
